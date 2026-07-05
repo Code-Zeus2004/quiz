@@ -24,7 +24,6 @@ app.get("/", (req, res) => {
 
 module.exports = app;
 
-
-
+const { protect } = require("./middleware/authMiddleware");
 
 
