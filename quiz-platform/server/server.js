@@ -9,6 +9,13 @@ app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
 
-app.get("/debug-route", (req, res) => {
+
+/** Debug route for testing authentication functionality
+ * 
+ * 
+ * app.get("/debug-route", (req, res) => {
     res.json({ ok: true, message: "auth system connected" });
 });
+ * 
+ * 
+ */
